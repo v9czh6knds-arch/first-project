@@ -1,0 +1,133 @@
+/* dataprofessor/dashboard-kit inspired styling */
+
+/* Main container */
+.main {
+    padding: 2rem;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #1f77b4;
+    font-weight: 600;
+}
+
+/* Cards */
+.metric-card, .component-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.metric-card:hover, .component-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #1f77b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1668a1;
+    transform: translateY(-1px);
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #f8f9fa;
+}
+
+/* Dataframe styling */
+.dataframe {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 5px 5px 0 0;
+    padding: 10px 20px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Loading spinner */
+.stSpinner > div {
+    border-color: #1f77b4 !important;
+}
+
+/* Alert boxes */
+.stAlert {
+    border-radius: 10px;
+    border: none;
+}
+
+/* Success */
+.stAlert [data-testid="stMarkdownContainer"] {
+    color: white !important;
+}
+
+/* Progress bars */
+.stProgress > div > div > div {
+    background-color: #1f77b4;
+}
+
+/* Tooltips */
+[data-testid="stTooltip"] {
+    background-color: white !important;
+    color: #333 !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* Selectbox dropdown */
+.stSelectbox [data-baseweb="select"] {
+    border-radius: 5px;
+}
+
+/* Number input */
+.stNumberInput [data-baseweb="input"] {
+    border-radius: 5px;
+}
+
+/* Slider */
+.stSlider [data-baseweb="slider"] {
+    color: #1f77b4;
+}
